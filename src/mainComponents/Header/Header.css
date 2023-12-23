@@ -1,0 +1,227 @@
+@font-face{
+
+    font-family: 'Kalam';
+    src: url('./../../fonts/Kalam-Regular.ttf');
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 95%;
+    height: 140px;
+    
+    border-radius: 15px;
+    background-image: linear-gradient(180deg,rgba(253, 145, 248, 0.966),#e3fff3);
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: cover;
+    animation: starting 1s linear;
+
+}
+
+@keyframes starting{
+
+    0%{
+
+        transform: translateX(-200%);
+
+    }
+
+    100%{
+
+        transform: translateX(0%)
+    }
+
+}
+
+.img_container{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    
+
+}
+
+.inner{
+    display: block;
+    background: linear-gradient(#bd1d1d, #fff);
+    height: 120px;
+    position: absolute;
+    width: 120px;
+    border-radius: 100%;
+}
+
+img{
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 100%;
+
+}
+
+.xmasText{
+    font-family: "Kalam";
+    display: block;
+    position: relative;
+   width: 290px;
+   height: 190px;
+    text-align: center;
+    
+    
+    
+
+}
+
+.xmasText div{
+    position: absolute;
+    width: 100%;
+  height: 100%;
+  
+}
+
+@keyframes moving{
+
+    0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 0px 300px;
+      }
+
+}
+
+.xmasText h1{
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    color: #fff;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ 
+    transition: all 200ms;
+
+}
+
+.xmasText h1:hover{
+    
+    background-image: linear-gradient(
+    -225deg,
+    #340ebd 0%,
+    #66f572 40%,
+    #ff548d 67%,
+    #fff94c 100%
+  );
+  transform: scale(1.1);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 50% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: movement 2s linear infinite;
+}
+
+@keyframes movement{
+
+    to{
+        background-position: 200% center;
+    }
+
+}
+
+ul{
+    
+    display: flex;
+    width: 60%;
+    
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+ul li{
+    position: relative;
+    width: 20%;
+    color: #fff;
+    font-family: 'Kalam';
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 350ms;
+    background-color: #c0e2ed;
+  background-image: linear-gradient(45deg,rgba(170,163,255,.769),rgba(192,226,237,.008));
+  background-position: 0 0;
+  background-repeat: repeat;
+
+}
+
+
+
+.mainLink{
+    align-items: center;
+  background-color: #c0e2ed;
+  background-image: linear-gradient(45deg,rgba(170,163,255,.769),rgba(192,226,237,.008));
+  background-position: 0 0;
+  background-repeat: repeat;
+  border: 0;
+  padding: 0;
+  font-size: 17px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  font-family: kalam;
+  height: 100%;
+  justify-content: space-around;
+  text-decoration: none;
+  transition: all .25s;
+  width: 100%;
+
+}
+
+.mainLink:hover{
+    background-image: linear-gradient(45deg,rgba(98,89,201,.769),rgba(117,169,187,.008));
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.mainLink span{
+
+    display: block;
+    width: 60%;
+
+}
+
+.book{
+    position: relative;
+    display: block;
+    width: 20px;
+    
+    border-radius: 0;
+    top: 0;
+    left: 0;
+
+}
+
+.play{
+
+    width: 30px;
+
+}
+
+.pencil{
+
+    width: 30px;
+
+}
