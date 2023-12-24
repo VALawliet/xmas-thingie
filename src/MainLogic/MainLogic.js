@@ -3,7 +3,7 @@ import {AppUI} from './../mainComponents/AppUI/AppUI.js'
 
 function MainLogic(){
 
-    const [pageClicked, setPageClicked] = React.useState('');
+    const [pageClicked, setPageClicked] = React.useState(0);
     const [languageSelected, setLanguageSelected] = React.useState(0);
 
 

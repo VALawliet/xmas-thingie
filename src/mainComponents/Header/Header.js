@@ -4,7 +4,7 @@ import pencil from "./../../svg/pencil-svgrepo-com.svg";
 import play from "./../../svg/play-svgrepo-com.svg";
 import music from "./../../svg/song-svgrepo-com.svg";
 
-function Header({languagePoem, languageSelected}){
+function Header({languagePoem, languageSelected, pageClicked, setPageClicked}){
 
     return(
         <header>
@@ -28,7 +28,12 @@ function Header({languagePoem, languageSelected}){
             <ul>
                 <li>
 
-                    <button className='mainLink'>
+                    <button className='mainLink' onClick={()=>{
+
+                        setPageClicked(0)
+
+
+                    }}>
                         <span>Main</span> <img className= 'book pencil'src={pencil}alt='hi'/>
                     </button>
 
@@ -37,20 +42,28 @@ function Header({languagePoem, languageSelected}){
 
                 <li>
                     
-                    <button className='mainLink' href="#">
+                    <button className='mainLink' onClick={()=>{
+                        setPageClicked(1)
+                    }}>
                         <span>Words</span> <img className= 'book'src={book}alt='hi'/>
                     </button>
                     
                     
                 </li>
                 <li>
-                    <button className='mainLink' href="#">
+                    <button className='mainLink' onClick={()=>{
+                    
+                        setPageClicked(2)    
+
+                    }}>
                         <span>Edits</span> <img className= 'book play'src={play}alt='hi'/>
                     </button>
                 </li>
                 <li>
 
-                    <button className='mainLink' href="#">
+                    <button className='mainLink' onClick={()=>{
+                        setPageClicked(3)
+                    }}>
                         <span>Songs</span> <img className= 'book'src={music}alt='hi'/>
                     </button>
 

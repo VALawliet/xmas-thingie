@@ -1,0 +1,179 @@
+@font-face{
+
+    font-family: 'Kalam';
+    src: url('./../../fonts/Kalam-Regular.ttf');
+
+}
+
+.mainPage{
+
+    width: 95%;
+    height: 1000px;
+    border: 1px solid black;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.introduction{
+
+    width: 70%;
+
+}
+
+.reasons{
+    
+    width: 70%;
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.introduction h2{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: "Kalam";
+}
+
+.introduction h2 .yo{
+
+    
+    font-size: 15px;
+    
+}
+
+.first{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(199, 221, 101, 0.769),rgba(161, 146, 230, 0.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.second{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(212, 115, 115, 0.769),rgba(141, 84, 146, 0.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.third{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(62, 167, 167, 0.769),rgba(192,226,237,.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.fourth{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(146, 63, 135, 0.769),rgba(192,226,237,.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.fifth{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(78, 69, 177, 0.769),rgba(192,226,237,.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+
+}
+
+.sixth{
+
+    background-color: #c0e2ed;
+    background-image: linear-gradient(45deg,rgba(211, 187, 79, 0.769),rgba(192,226,237,.008));
+    background-position: 0 0;
+    background-repeat: repeat;
+    
+
+}
+
+.reason{
+    position: relative;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    
+    
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+
+}
+
+.p_reason{
+    display: flex;
+    
+    padding: 0;
+    margin: 0;
+
+    font-size: 17px;
+}
+
+.p_reason strong{
+    display: inline;
+    margin-left: 5px;
+}
+
+.number{
+
+    display: block;
+    width: 32px;
+    margin-left: 4px;
+    
+
+}
+
+.ohboi{
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.proof1{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%
+
+}
+
+.proof1 img{
+
+    position: relative;
+    width: 350px;
+    border-radius: 3px;
+
+
+}
+
+
+.column{
+
+    width: 20%;
+
+}
+
+.gif_container{
+    position: relative;
+}
+
