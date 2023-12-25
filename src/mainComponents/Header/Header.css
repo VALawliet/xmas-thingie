@@ -55,7 +55,7 @@ header{
     border-radius: 100%;
 }
 
-img{
+.img_container img{
     display: block;
     width: 100px;
     position: absolute;
