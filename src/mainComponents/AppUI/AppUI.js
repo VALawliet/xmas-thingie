@@ -3,6 +3,7 @@ import { Main } from "../Main/Main";
 import { Words } from "../Words/Words";
 import { Edits } from "../Edits/Edits";
 import { Songs } from "../Songs/Songs";
+import { Footer } from "../Footer/Footer";
 
 
 
@@ -20,6 +21,8 @@ function AppUI({pageClicked, setPageClicked, languageSelected, setLanguageSelect
             {pageClicked === 2 && <Edits/>}
 
             {pageClicked === 3 && <Songs/>}
+
+            <Footer/>
         </>
         
 

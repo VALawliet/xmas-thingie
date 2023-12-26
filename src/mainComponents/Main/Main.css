@@ -215,6 +215,8 @@
     width: 90%;
     height: 60px;
     display: flex;
+    cursor: default;
+    user-select: none;
     
     
     align-items: center;
