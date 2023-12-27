@@ -27,7 +27,7 @@ function Footer(){
 
             <div className='info_content'>
 
-                <p>I'd like to thank you for giving me such amazing couple of months so far bbg, you're the best</p>
+                <p>I'd like to thank you for giving me such amazing time so far bbg, you're the best</p>
                 <h2>&lt;3</h2>
 
                 <div className='instagrams'>

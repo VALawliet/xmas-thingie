@@ -17,9 +17,7 @@ function Header({languagePoem, languageSelected, pageClicked, setPageClicked}){
             
             <div className='xmasText'>
                 
-                <h1 onClick={()=>{
-                    languagePoem(languageSelected)
-                }}>
+                <h1>
                     Merry Christmas!!
                 </h1>
                 

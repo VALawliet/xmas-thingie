@@ -5,6 +5,7 @@ function MainLogic(){
 
     const [pageClicked, setPageClicked] = React.useState(0);
     const [languageSelected, setLanguageSelected] = React.useState(0);
+    const [clicked, setClicked] = React.useState(false);
 
 
 
@@ -15,10 +16,13 @@ function MainLogic(){
         if(value === 0){
 
             setLanguageSelected(1);
+            setClicked(true)
+
 
         }else{
 
-            setLanguageSelected(0)
+            setLanguageSelected(0);
+            setClicked(false)
 
         }
 
@@ -27,7 +31,7 @@ function MainLogic(){
     }
 
     return(
-        <AppUI pageClicked={pageClicked} setPageClicked={setPageClicked} languageSelected={languageSelected} setLanguageSelected={setLanguageSelected} languagePoem={languagePoem}/>
+        <AppUI pageClicked={pageClicked} setPageClicked={setPageClicked} languageSelected={languageSelected} setLanguageSelected={setLanguageSelected} languagePoem={languagePoem} clicked={clicked}/>
     )
 
 

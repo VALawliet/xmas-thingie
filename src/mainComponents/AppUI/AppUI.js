@@ -7,7 +7,7 @@ import { Footer } from "../Footer/Footer";
 
 
 
-function AppUI({pageClicked, setPageClicked, languageSelected, setLanguageSelected, languagePoem}){
+function AppUI({pageClicked, setPageClicked, languageSelected, setLanguageSelected, languagePoem, clicked}){
 
 
     return(
@@ -16,7 +16,7 @@ function AppUI({pageClicked, setPageClicked, languageSelected, setLanguageSelect
 
             {pageClicked === 0 && <Main/>}
 
-            {pageClicked === 1 && <Words/>}
+            {pageClicked === 1 && <Words languagePoem={languagePoem} languageSelected={languageSelected} setLanguageSelected={setLanguageSelected} clicked={clicked} />}
 
             {pageClicked === 2 && <Edits/>}
 

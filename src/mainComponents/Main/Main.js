@@ -37,7 +37,7 @@ function Main(){
             <section className='column'>
                 <h1>Random Column cuz why not</h1>
                 <p>This website is gonna be filled with a bunch of random css cuz its cool ok, so you can try and click wtv you want, it may have smth added in there</p>
-                <p>I say you should click the gif below to see what it does</p>
+                <p>Click on this mf</p>
 
                 <div className='gif_container' onClick={()=>{
 
@@ -74,6 +74,8 @@ function Main(){
                     <img src="https://i.ibb.co/pnspsFN/balls-1-1.png" className='george' alt="balls-1-1" border="0"/>
                 </div>
 
+                <h2>Gotta be honest, this text is just here to fill some space up bc your viewport is INSANELY big</h2>
+
 
             </section>
     
@@ -93,7 +95,7 @@ function Main(){
                     <li className='reason second'><span className='number'>#2.</span> <p className='p_reason'> I bet you smell good (I have no proof but I'm full of faith)</p></li>
                     <li className='reason third'><span className='number'>#3.</span> <p className='p_reason'> You're actually very funny (don't tell ingrid i said this tho)</p></li>
                     <li className='reason fourth' data-text='Home'><span className='number'>#4.</span> <p className='p_reason'> The minecraft house looks GREAT (when r we playing btw??)</p></li>
-                    <div className='invis'></div>
+                    
                     <li className='reason fifth'>
                         <div className='invis'>
                             <span className='number'>#5.</span> <p className='p_reason'> You put up with a lot of shit like a warrior (even whilst you're crying)</p>    
@@ -106,10 +108,30 @@ function Main(){
                 </ul>
 
                 <h3 className='ohboi'>It's six reasons bc there's 6 main characters in my little pony.</h3>
-                <h3 className='ohboi'>Here's my proof:</h3>
-                <div className='proof1'>
-                    <img src="https://i.ibb.co/rbXKqj3/1953360-orig-1.jpg" alt="1953360-orig-1" border="0"/>
+
+                <div className='main_proof_container'>
+
+                    <div className='proof_container'>
+                        <h3 className='ohboi'>Had to write it down, but here's my proof:</h3>
+                        <div className='proof1'>
+                            <img src="https://i.ibb.co/rbXKqj3/1953360-orig-1.jpg" alt="1953360-orig-1" border="0"/>
+                        </div>
+                    </div>
+
+                    <div className='proof_container'>
+                        <h3 className='ohboi'>It's also the number of films related to the Hobbit thingie. Proof:</h3>
+
+                        <div className='proof1'>
+                            <img src="https://i.ibb.co/Fb3P2cg/trilogies-1.jpg" alt="trilogies-1" border="0"/>
+                        </div>
+                    </div>
+
                 </div>
+
+                
+                
+
+                
 
             </article>
             
