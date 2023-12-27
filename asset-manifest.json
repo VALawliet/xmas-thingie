@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/xmas-thingie/static/css/main.47c65e0b.css",
+    "main.js": "/xmas-thingie/static/js/main.a2ec6dc1.js",
+    "static/js/787.a7178908.chunk.js": "/xmas-thingie/static/js/787.a7178908.chunk.js",
+    "static/media/Kalam-Regular.ttf": "/xmas-thingie/static/media/Kalam-Regular.831aaad03890ba2d7417.ttf",
+    "static/media/pencil-svgrepo-com.svg": "/xmas-thingie/static/media/pencil-svgrepo-com.b6c257eb416b8c865727b33555fda0de.svg",
+    "static/media/song-svgrepo-com.svg": "/xmas-thingie/static/media/song-svgrepo-com.40ccfdaf63e0216fd2441399c4224c52.svg",
+    "static/media/book-svgrepo-com.svg": "/xmas-thingie/static/media/book-svgrepo-com.d4a977a60aa2f9c68e33c306235f7ec7.svg",
+    "static/media/refresh-svgrepo-com2.svg": "/xmas-thingie/static/media/refresh-svgrepo-com2.15cbf9a89ab5921c3b03d8b93e3ee943.svg",
+    "static/media/refresh-svgrepo-com.svg": "/xmas-thingie/static/media/refresh-svgrepo-com.068ec7895294d3579ad3ca3fedb0d488.svg",
+    "static/media/iconmonstr-instagram-11.svg": "/xmas-thingie/static/media/iconmonstr-instagram-11.9729795182835d348c986f07af050566.svg",
+    "static/media/iconmonstr-instagram-12.svg": "/xmas-thingie/static/media/iconmonstr-instagram-12.4173fb880b4b6918d085d280fd3d0585.svg",
+    "static/media/heart-svgrepo-com.svg": "/xmas-thingie/static/media/heart-svgrepo-com.1d7ceeffda3eec481621dc2bc0c8b6d9.svg",
+    "static/media/play-svgrepo-com.svg": "/xmas-thingie/static/media/play-svgrepo-com.71fca4a430d14a9c344c1aadb034db39.svg",
+    "index.html": "/xmas-thingie/index.html",
+    "main.47c65e0b.css.map": "/xmas-thingie/static/css/main.47c65e0b.css.map",
+    "main.a2ec6dc1.js.map": "/xmas-thingie/static/js/main.a2ec6dc1.js.map",
+    "787.a7178908.chunk.js.map": "/xmas-thingie/static/js/787.a7178908.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c65e0b.css",
+    "static/js/main.a2ec6dc1.js"
+  ]
+}
